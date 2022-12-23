@@ -1,5 +1,5 @@
 // 1-I, 5-V, 10-X, 50-L, 100-C, 500-D, 1000-M;
-// range 1 - 4999;
+// range [1, 4999];
 function numberToRoman(num) {
   if (!Number.isInteger(num) || !(num > 0 && num < 5000)) {
     return `unexpected input value`;
